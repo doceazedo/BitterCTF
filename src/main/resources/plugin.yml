@@ -1,0 +1,17 @@
+name: BitterCTF
+version: '${project.version}'
+main: com.doceazedo.bitterctf.Main
+api-version: 1.13
+prefix: BitterCTF
+authors: [ DoceAzedo ]
+description: Capture the flag minigame
+website: https://doceazedo.com
+commands:
+  jointeam:
+    permission: bitterctf.cmd
+  startgame:
+    permission: bitterctf.cmd
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.6.0
+  - com.github.shynixn.mccoroutine:mccoroutine-bukkit-api:1.5.0
+  - com.github.shynixn.mccoroutine:mccoroutine-bukkit-core:1.5.0
